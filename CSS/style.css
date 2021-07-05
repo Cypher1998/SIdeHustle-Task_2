@@ -1,0 +1,432 @@
+body{
+    background: hsl(218, 28%, 13%);
+    color: #fff;;
+    margin:0;
+}
+
+.clr{
+    clear: both;
+}
+
+/* This section styles the logo and the top-right navbar*/
+
+.container{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#main{
+    background: hsl(217, 28%, 15%);
+    padding-top: 40px;
+}
+
+#main img{
+    width: 170px;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+}
+
+#main ul{
+    float: right;
+    padding: 0;
+    list-style: none;
+}
+
+#main li{
+    display: inline;
+}
+
+#main a{
+    text-decoration: none;
+    color: lightgray;
+    padding-right: 30px;
+    font: 15px 'Raleway', sans-serif;
+}
+
+#main a:hover{
+    text-decoration: underline;
+    color: hsl(0, 0%, 100%);
+}
+
+/* This section styles the Introductory part */
+
+#section-1{
+    background: hsl(217, 28%, 15%);
+    padding-bottom: 20px;
+    text-align: center;
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 105% 35%;
+}
+
+.sub-container-1{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.sub-container-1 img{
+    width: 100%;
+    height: 534px;
+    object-fit: contain;
+    object-position: bottom;  
+}
+
+.sub-container-1 h3{
+    font: 35px 'raleway', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    color: white;
+}
+
+.sub-container-1 p{
+    font: 20px 'open-sans', sans-serif;
+    line-height: 1.6em;
+    padding-bottom: 13px;
+    color: lightgray;
+}
+
+.sub-container-1 a{
+    text-decoration: none;
+    color: white;
+    font: 14px 'raleway', sans-serif;
+    background: hsl(198, 60%, 50%);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 70px;
+}
+
+.sub-container-1 a:hover{
+    background: hsl(176, 68%, 64%);
+}
+
+/* This section styles the characteristics of Fylo */
+
+#section-2{
+    background: hsl(218, 28%, 13%);
+}
+
+.sub-container-2{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+}
+
+.sub-container-2 div{
+    text-align: center;
+}
+
+.sub-container-2 h4{
+    font: 25px 'raleway', sans-serif;
+    margin-bottom: 0;
+    color: white;
+}
+
+.sub-container-2 p{
+    font: 14px 'open-sans', sans-serif;
+    line-height: 1.6em;
+    color: lightgray;   
+}
+
+/* This section styles the reasons of Fylo's usage */
+
+#section-3{
+    background: hsl(218, 28%, 13%);
+}
+
+.sub-container-3{
+    margin: auto;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    width: 80%;
+    justify-items: center;
+}
+
+.sub-container-3 .sub-img img{
+    margin-top: 50px;
+    width: 90%;
+    height: 85%;
+    
+}
+
+.sub-container-3 .sub-text{
+    margin-top: 50px;
+}
+
+.sub-text h3{
+    font: 45px 'raleway', sans-serif;
+    margin-bottom: 0;
+}
+
+.sub-text p{
+    font: 16px 'open-sans', sans-serif;
+    line-height: 1.6em;
+}
+
+.sub-text a{
+    font: 18px 'open-sans', sans-serif;
+    color:  hsl(198, 60%, 50%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(198, 60%, 50%);
+    padding-bottom: 5px;
+}
+.sub-container-3 .sub-text a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.sub-text img:hover{
+    color: lightgrey;
+}
+
+/* This section styles the testimonies of users */
+
+#section-4{
+    background: hsl(218, 28%, 13%);
+}
+
+#section-4 .bg-quote{
+    margin-left: 9%;
+    margin-bottom: -12px;
+}
+.sub-container-4{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: lightgray;
+    font: 14px 'open-sans', sans-serif;
+    color: lightgray;
+    font-weight: 600;
+    margin-bottom: 300px;
+}
+
+.sub-container-4 div{
+    border:none;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px hsl(217, 27%, 17%);
+    flex-basis: 28%;
+    padding: 20px;
+    line-height: 1.5em;
+    background: hsl(219, 30%, 18%);
+    margin-right: 20px;
+}
+
+.sub-container-4 img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sub-container-4 .p1{
+    font: 10px 'open-sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.sub-container-4 .p2{
+    font: 8px 'open-sans', sans-serif;
+    margin-top: 5px;
+}
+
+/* This section styles the Email sign-up */
+
+#section-5{
+    background:  hsl(217, 28%, 15%);
+}
+
+.sub-container-5{
+    width:50%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 50px 20px 50px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    background: hsl(216, 29%, 24%);
+}
+
+.sub-container-5 h4{
+    font: 30px 'raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.sub-container-5 p{
+    font: 16px 'raleway', sans-serif;
+    line-height: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: lightgray;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2em;
+    padding-bottom: 20px;
+}
+
+.grid input{
+    padding: 20px 30px;
+    border-radius: 30px;
+    font: 14px 'raleway', sans-serif;
+}
+
+.grid a{
+    background: hsl(198, 60%, 50%);
+    border-radius: 30px;
+    padding-top: 22px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font: 14px 'raleway', sans-serif;
+}
+
+.grid a:hover{
+    background: hsl(176, 68%, 64%);
+}
+
+/* This section styles Fylo contact addresses */
+
+#section-6{
+    background-color: hsl(216, 53%, 9%);
+    margin: auto;
+    padding: 200px 70px 100px 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+#section-6 .img-1{
+    width: 140px;
+    height: 40px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.sub-container-6{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    grid-column-gap: 1em;
+}
+
+.sub-container-6 .location{
+    display: flex;
+}
+
+.location .img-2{
+    width: 15px;
+    margin-top: 25px;
+    height: 20px;
+}
+
+.location .address{
+   font: 16px 'raleway', sans-serif;
+   color: lightgray;
+   line-height: 1.6em;
+   padding-left: 30px;
+}
+
+.sub-container-6 .contact div{
+    display: flex;
+    margin-top: 13px;
+    
+}
+
+.contact .img-2{
+    width: 25px;
+    height: 20px;
+    
+}
+
+.contact .address{
+    font: 14px 'raleway', sans-serif;
+    color: lightgray;
+    line-height: 1.6em;
+    padding-left: 30px;
+    margin-top: 0px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.sub-container-6 .navbar ul{
+    line-height: 2em;
+    list-style: none;
+    margin-top: 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: lightgray;
+    font: 15px 'raleway', sans-serif;
+}
+
+.navbar a:hover{
+    color: white;
+    font-weight: 600;
+}
+
+.sub-container-6 .img-3 img{
+    width: 28px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px; 
+    background-color: hsl(215, 30%, 83%); 
+}
+
+.img-3{
+    justify-self: center;
+}
+
+/* Positioning*/
+.p-box{
+    position: relative;
+}
+
+.p-rel{
+    position: absolute;
+    bottom: 75%;
+    z-index: 1;
+    left: 21%;
+}
+
+/* This section styles the "me-challenge"*/
+
+footer{
+    text-align: center;
+    font: 15px 'raleway', sans-serif;
+    background: linear-gradient(to right,#2b5876, #4e4376);
+    padding: 15px;
+}
+
+footer p{
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+}
+
+.attribution a{
+   text-decoration: none;
+   color: hsl(198, 84%, 64%);
+}
+
+.attribution a:hover{
+    color: coral;
+}
+

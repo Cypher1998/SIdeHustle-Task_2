@@ -1,0 +1,185 @@
+/* This is the media query */
+@media (max-width:560px){
+    .sub-container-4{
+        flex-direction: column;
+        width: 70%;
+        overflow: hidden;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 400px;
+    }
+    
+    /*media query for section 4*/
+    .sub-container-4 div{
+        margin-bottom: 40px;
+    }
+
+    #section-4 .bg-quote{
+        margin-left: 16%;
+        margin-bottom: -57px;
+        width: 35px;
+    }
+
+    .sub-container-3{
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .sub-text h3{
+        font: 25px 'raleway', sans-serif;
+        margin-bottom: 0;
+    }
+    
+    .sub-text p{
+        font: 18px 'open-sans', sans-serif;
+        line-height: 1.6em;
+
+    }
+
+    /*media query for section 2*/
+    .sub-container-2{
+        grid-template-columns: 1fr;
+        width: 100%; 
+        text-align: center;
+    }
+
+    .sub-container-2 h4{
+        font: 30px 'raleway', sans-serif;
+    }
+
+    .sub-container-2 p{
+        font: 15px 'open-sans', sans-serif;
+        line-height: 1.6em;
+    }
+
+    /*media query for section 1*/
+    .sub-container-1{
+        width: 90%;
+        margin: auto;
+    }
+
+    .sub-container-1 img{
+        object-fit: contain;
+    }
+
+    .sub-container-1 h3{
+       font-size: 27px;
+    }
+
+    .sub-container-1 p{
+        font-size: 21px;
+    }
+
+    #section-1{
+        background-image: url('../Images/bg-curvy-mobile.svg');
+        background-size: 175% 48%;
+        background-position: bottom;
+    }
+
+    /*media query for section 5*/
+    .sub-container-5{
+        padding: 0 30px 20px 30px;;
+        width: 70%;
+    }
+    
+    .sub-container-5 h4{
+        font: 22px 'raleway', sans-serif;
+        font-weight: 500;
+        
+    }
+    .sub-container-5 p{
+        font-size: 16px;
+        padding-left:
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+    }
+
+    .grid a{
+        padding: 20px 20px;
+        font-size: 13px;
+    }
+
+    /*media query for section 6*/
+    #section-6{
+        padding-left: 50px;
+        padding-top: 300px;
+    }
+
+    #section-6.img-1{
+        width: 70px;
+        height: 30px;
+    }
+
+    .sub-container-6{
+        grid-template-columns: 1fr;
+        grid-gap:2em;
+     }
+
+     .sub-container-6 .img-3{
+         justify-self: start;
+     }
+    
+     .sub-container-6 .navbar{
+         flex-direction: column;
+     }
+
+    .navbar ul{
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+
+    /*media query for footer*/
+    footer{
+        font-size: 13px;
+        line-height: 1.2em;
+        padding: 10px;
+    }
+    /*media query for the header*/
+    #main img{
+        width: 70px;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    #main a{
+        padding-right: 15px;
+        font: 14px 'Raleway', sans-serif;
+    }
+
+    /*media query for positioning*/
+    .p-box{
+        position: relative;
+    }
+    
+    .p-rel{
+        position: absolute;
+        bottom: 84%;
+        z-index: 1;
+        left: 10%;
+    }
+    
+}
+
+@media(max-width:860px){
+    
+   .sub-container-5{
+       width: 65%;
+       margin: auto;
+   }
+
+   .p-box{
+        position: relative;
+}
+
+    .p-rel{
+        position: absolute;
+        bottom: 80%;
+        z-index: 1;
+        left: 9%;
+    }
+}
